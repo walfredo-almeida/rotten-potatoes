@@ -24,7 +24,7 @@ jobs:
           echo test, and deploy your project.
       
       - name: Docker Login
-        uses: docker/login-action@v1.12.0
+        uses: docker/login-action@v1.10.0
         with:
           username: ${{ secrets.DOCKERHUB.USER }}
           password: ${{ secrets.DOCKERHUB.PWD }}
